@@ -18,9 +18,9 @@ After push operation, it stores the changes permanently to the Git repository.
 time, or you have a new Git installation. 
 This command will set up your identity - Name and Email address. And this information will be used with every commit.
 
-4. .git config --global user.name "kumamit56"
+4. .git config --global user.name "amityadav"
 
-5. git config --global user.email "amit9sept@gmail.com"
+5. git config --global user.email "amityadav@gmail.com"
 
 git config list the command will show all Git config properties
 
