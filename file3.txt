@@ -1,0 +1,65 @@
+Ques:-1 Why it is important?
+Ans:- Tracking the changes and updates. We can see who made which changes. Git also provides when 
+and why a change was made. Allowing them to work collaboratively. Software development projects 
+usually require many people to work together. Git provides developers with a systematic way of 
+doing that. Thus, the developers focus on the project instead of extensive communication sessions
+between the other developers.
+Git Three Stages
+ basic workflow of Git.
+Step 1 − You modify a file from the working directory.
+Step 2 − You add these files to the staging area.
+Step 3 − You perform commit operation that moves the files from the staging area.
+After push operation, it stores the changes permanently to the Git repository.
+
+------------>>> Git Command <<<<------------------
+1. git init
+2. git --version
+3. The Git config the command is super helpful. Especially when you are using Git for the first 
+time, or you have a new Git installation. 
+This command will set up your identity - Name and Email address. And this information will be used with every commit.
+
+4. .git config --global user.name "kumamit56"
+
+5. git config --global user.email "amit9sept@gmail.com"
+
+git config list the command will show all Git config properties
+
+6. git config --list
+this command to show my user name and email address
+
+7. mkdir git_tut_devops_batch
+8. cd git_tut_devops_batch/
+9. mkdir project{1..3}
+10. ls   --->to show my all directory project1 project2 project3
+11. cd project1/
+
+This is probably the first command you use to start a new project in Git. This command will create a blank new repository, and then you can store your source code inside this repo.
+
+12. git init
+13. ls -a   ----> to show my hiden file . .. .git
+
+14. vim amit.txt
+ type some content save 
+
+15. git add amit.txt
+16. git commit -m "added this file"
+17. git status  -----> Now, ready my file is go to the remote server
+18. git remote add origin <repo url paste>
+19. git remote -v
+20. git status   ---> my status show main/master
+21. git push origin main/master
+
+22. git log   ---->git log the command helps you to see all previous commit messages.
+23. git log --all
+24. git log --one line
+25. git log -p
+
+26. step 1: And now you create a repo in GitHub
+27.  Git-GitHub-Notes
+28. step 2: and then create your local same as
+     mkdir Git-GitHub-Notes
+29. step 3: and again go to your GitHub and copy the HTTPS code
+     git clone https://github.com/kumamit56/Git-GitHub-Notes.git
+30. ls  ---> to show my repo in my local system
+
+
