@@ -1,0 +1,33 @@
+Ques:-1 what is Git?
+Ans:- Git is a version control system that helps you keep track of changes made to your code over 
+time.
+It allows you to collaborate with others on a project, keep track of different
+versions of your code, and easily revert to previous versions if needed.
+
+Ques:-2 what is GitHub?
+Ans:- GitHub is a website that allows you to store your code online and collaborate with others. 
+It uses Git as its version control system, so you can keep track of changes made to your 
+code over time, work with others on the same codebase, and easily share your code with the world.
+
+Ques:-3 Why it is important?
+Ans:- Tracking the changes and updates. We can see who made which changes. Git also provides 
+when and why a change was made.
+Allowing them to work collaboratively. Software development projects usually require many people
+to work together.
+Git provides developers with a systematic way of doing that. Thus, the developers focus on the 
+project instead of extensive communication sessions between the other developers.
+
+Ques:-4 what is Version Control ?
+Ans:-Version control is the process of managing changes to software code or other types of 
+documents over time.
+It allows multiple people to work on the same files simultaneously, while keeping track of all 
+changes made and providing a way to revert to previous versions if necessary.
+-------->> two types of version control system <<<-------------------
+1. Distributed version control system(DVCS):-
+Git is a Distributed Version Control System.
+In DVCS every contributor has a local copy or clone of the main repository i.e everyone maintenancea local repo of their own which containers all the files & metadata present in the main repository.
+2. Centralized version control system(CVCS):- 
+GitHub is a Centralized Version Control System
+suppose you have a repository and everybody came and distribute the code and suddenly 
+the server is crash, in that case, everything in your code is gone.
+
